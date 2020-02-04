@@ -6,9 +6,6 @@ const Client = require('bitcoin-core');
 // const client = new Client({ network: 'regtest' });
 const client = new Client({
   username: 'student',
-  password: 'WYVyF5DTERJASAiIiYGg4UkRH',
-  port: 8332,
-  host:'blockchain.oss.unist.hr',
 });
 
 var blockexplorer = require('blockchain.info/blockexplorer').usingNetwork(3)
